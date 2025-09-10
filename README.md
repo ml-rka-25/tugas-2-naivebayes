@@ -1,4 +1,4 @@
-# Tugas 2 - Klasifikasi Pendapatan dengan Naive Bayes
+# Tugas 2 - Klasifikasi Pendapatan dengan Naive Bayes dan Logistic Regression
 
 | Nama              | NRP        |
 |-------------------|------------|
@@ -8,7 +8,7 @@
 Pada tugas ini, kita akan menggunakan Adult Census Income Dataset. Dataset bisa diakses melalui link berikut:\
 🔗 https://www.kaggle.com/datasets/uciml/adult-census-income/data
 
-Tujuan utama dari tugas ini adalah membangun model Naive Bayes untuk memprediksi apakah pendapatan seseorang lebih dari $50K per tahun berdasarkan fitur demografis dan pekerjaan.
+Tujuan utama dari tugas ini adalah membangun model Naive Bayes dan Logistic Regression untuk memprediksi apakah pendapatan seseorang lebih dari $50K per tahun berdasarkan fitur demografis dan pekerjaan.
 
 Langkah-langkah yang harus dilakukan antara lain:
 1. Persiapan Dataset & Eksplorasi Awal
@@ -17,8 +17,8 @@ Langkah-langkah yang harus dilakukan antara lain:
 2. Preprocessing 
 - Memproses data agar siap untuk digunakan dalam model, termasuk menangani missing value, encoding fitur kategorikal, dan normalisasi/standardisasi jika diperlukan.
 
-3. Eksperimen Model Naive Bayes
-- Bangun model Naive Bayes dan latih menggunakan data training.
+3. Eksperimen Model 
+- Bangun model Naive Bayes dan Logistic Regression, lalu latih menggunakan data training.
 - Eksperimen dapat dilakukan dengan pemilihan fitur yang digunakan dalam melatih model untuk mengetahui pengaruh fitur terhadap performa model.
 
 4. Evaluasi Model
